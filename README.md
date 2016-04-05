@@ -1,4 +1,4 @@
 common
 ======
 
-Basic programs
+This repository contains basic algorithms in Python.
