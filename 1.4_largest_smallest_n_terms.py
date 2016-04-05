@@ -16,3 +16,10 @@ record = [
   ]
 print heapq.nlargest(2, record, key=lambda x: x['marks'])
 #Output: [{'name': 'E', 'marks': 65}, {'name': 'A', 'marks': 34}]
+
+'''
+
+Case 1: N = 1, use max or min
+Case 2: N is comparable to length of sequence, use sorted+subset
+Case 3: For rest of the cases, use heapq
+'''
